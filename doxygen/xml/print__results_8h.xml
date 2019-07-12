@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="print__results_8h" kind="file" language="C++">
+    <compoundname>print_results.h</compoundname>
+    <includes refid="api_8h" local="no">radar/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="print__results__impl_8h" local="no">print_results_impl.h</includedby>
+    <incdepgraph>
+      <node id="236">
+        <label>radar/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="237" relation="include">
+        </childnode>
+      </node>
+      <node id="238">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="237">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="235">
+        <label>print_results.h</label>
+        <link refid="print_results.h"/>
+        <childnode refid="236" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="240">
+        <label>print_results_impl.h</label>
+        <link refid="print__results__impl_8h"/>
+      </node>
+      <node id="239">
+        <label>print_results.h</label>
+        <link refid="print_results.h"/>
+        <childnode refid="240" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1radar_1_1print__results" prot="public">gr::radar::print_results</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1radar">gr::radar</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/parallels/gr-radar/include/radar/print_results.h"/>
+  </compounddef>
+</doxygen>

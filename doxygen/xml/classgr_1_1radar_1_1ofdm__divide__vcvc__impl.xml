@@ -1,0 +1,240 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1radar_1_1ofdm__divide__vcvc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::ofdm_divide_vcvc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1ofdm__divide__vcvc" prot="public" virt="non-virtual">gr::radar::ofdm_divide_vcvc</basecompoundref>
+    <includes refid="ofdm__divide__vcvc__impl_8h" local="no">ofdm_divide_vcvc_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1a509332a103f53b4bb6dd31a0b7906ef8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::ofdm_divide_vcvc_impl::d_vlen_in</definition>
+        <argsstring></argsstring>
+        <name>d_vlen_in</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" line="41" column="1" bodyfile="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1af6597a957c836dbaca4402b9c20c7ddb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::ofdm_divide_vcvc_impl::d_vlen_out</definition>
+        <argsstring></argsstring>
+        <name>d_vlen_out</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" line="41" column="1" bodyfile="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1a6944990ce6dd60f4f00e87ad90011c75" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::ofdm_divide_vcvc_impl::d_num_sync_words</definition>
+        <argsstring></argsstring>
+        <name>d_num_sync_words</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" line="41" column="1" bodyfile="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1afedff5a84749eda17523647d1375a96f" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::radar::ofdm_divide_vcvc_impl::d_discarded_carriers</definition>
+        <argsstring></argsstring>
+        <name>d_discarded_carriers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" line="42" column="1" bodyfile="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1a1ff22cce9af72344951846150e29e2cd" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::radar::ofdm_divide_vcvc_impl::d_len_key</definition>
+        <argsstring></argsstring>
+        <name>d_len_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" line="43" column="1" bodyfile="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1acf7eb2a8aa8f63b4a99335251c968650" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::ofdm_divide_vcvc_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1a78d3041289b8715373487d49fb888672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::ofdm_divide_vcvc_impl::ofdm_divide_vcvc_impl</definition>
+        <argsstring>(int vlen_in, int vlen_out, std::vector&lt; int &gt; discarded_carriers, int num_sync_words, std::string len_key)</argsstring>
+        <name>ofdm_divide_vcvc_impl</name>
+        <param>
+          <type>int</type>
+          <declname>vlen_in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vlen_out</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>discarded_carriers</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_sync_words</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1ae6e7e4fe0002ba856b7a34647137312f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::ofdm_divide_vcvc_impl::~ofdm_divide_vcvc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~ofdm_divide_vcvc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1af6ca023a8033176e2eac9cafee97ec56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::ofdm_divide_vcvc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" line="46" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="149">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="148">
+        <label>gr::radar::ofdm_divide_vcvc</label>
+        <link refid="classgr_1_1radar_1_1ofdm__divide__vcvc"/>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="147">
+        <label>gr::radar::ofdm_divide_vcvc_impl</label>
+        <link refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="152">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="154">
+        <label>std::basic_string&lt; char &gt;</label>
+      </node>
+      <node id="151">
+        <label>gr::radar::ofdm_divide_vcvc</label>
+        <link refid="classgr_1_1radar_1_1ofdm__divide__vcvc"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="155">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+      <node id="150">
+        <label>gr::radar::ofdm_divide_vcvc_impl</label>
+        <link refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl"/>
+        <childnode refid="151" relation="public-inheritance">
+        </childnode>
+        <childnode refid="153" relation="usage">
+          <edgelabel>d_len_key</edgelabel>
+        </childnode>
+        <childnode refid="155" relation="usage">
+          <edgelabel>d_discarded_carriers</edgelabel>
+        </childnode>
+      </node>
+      <node id="153">
+        <label>std::string</label>
+        <childnode refid="154" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" line="30" column="1" bodyfile="/home/parallels/gr-radar/lib/ofdm_divide_vcvc_impl.h" bodystart="29" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1acf7eb2a8aa8f63b4a99335251c968650" prot="protected" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1afedff5a84749eda17523647d1375a96f" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc_impl</scope><name>d_discarded_carriers</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1a1ff22cce9af72344951846150e29e2cd" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc_impl</scope><name>d_len_key</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1a6944990ce6dd60f4f00e87ad90011c75" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc_impl</scope><name>d_num_sync_words</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1a509332a103f53b4bb6dd31a0b7906ef8" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc_impl</scope><name>d_vlen_in</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1af6597a957c836dbaca4402b9c20c7ddb" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc_impl</scope><name>d_vlen_out</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc_1a551167162c2c54954c8ad9e8576d64b4" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1a78d3041289b8715373487d49fb888672" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc_impl</scope><name>ofdm_divide_vcvc_impl</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc_1ac1a5992530314a45ae7007e28c5a7912" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1af6ca023a8033176e2eac9cafee97ec56" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1radar_1_1ofdm__divide__vcvc__impl_1ae6e7e4fe0002ba856b7a34647137312f" prot="public" virt="non-virtual"><scope>gr::radar::ofdm_divide_vcvc_impl</scope><name>~ofdm_divide_vcvc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

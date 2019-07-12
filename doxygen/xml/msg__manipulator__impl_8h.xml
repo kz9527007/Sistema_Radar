@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="msg__manipulator__impl_8h" kind="file" language="C++">
+    <compoundname>msg_manipulator_impl.h</compoundname>
+    <includes refid="msg__manipulator_8h" local="no">radar/msg_manipulator.h</includes>
+    <incdepgraph>
+      <node id="181">
+        <label>msg_manipulator_impl.h</label>
+        <link refid="msg_manipulator_impl.h"/>
+        <childnode refid="182" relation="include">
+        </childnode>
+      </node>
+      <node id="183">
+        <label>radar/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="184" relation="include">
+        </childnode>
+      </node>
+      <node id="182">
+        <label>radar/msg_manipulator.h</label>
+        <link refid="msg__manipulator_8h"/>
+        <childnode refid="183" relation="include">
+        </childnode>
+        <childnode refid="185" relation="include">
+        </childnode>
+      </node>
+      <node id="184">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="185">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1radar_1_1msg__manipulator__impl" prot="public">gr::radar::msg_manipulator_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1radar">gr::radar</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/parallels/gr-radar/lib/msg_manipulator_impl.h"/>
+  </compounddef>
+</doxygen>

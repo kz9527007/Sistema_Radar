@@ -1,0 +1,464 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1radar_1_1os__cfar__2d__vc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::os_cfar_2d_vc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1os__cfar__2d__vc" prot="public" virt="non-virtual">gr::radar::os_cfar_2d_vc</basecompoundref>
+    <includes refid="os__cfar__2d__vc__impl_8h" local="no">os_cfar_2d_vc_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a67e2a7f1af45af3ddfbf736e13a15adf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::os_cfar_2d_vc_impl::d_vlen</definition>
+        <argsstring></argsstring>
+        <name>d_vlen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="45" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a9fd950a6f6bc4317dfe493ddbcd4e0d9" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::radar::os_cfar_2d_vc_impl::d_samp_compare</definition>
+        <argsstring></argsstring>
+        <name>d_samp_compare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="46" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1ac9682802e204da71044f5f477f21ac80" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::radar::os_cfar_2d_vc_impl::d_samp_protect</definition>
+        <argsstring></argsstring>
+        <name>d_samp_protect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="46" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a14e4bd045f1e3f36ddb703316e2e57e2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::os_cfar_2d_vc_impl::d_rel_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_rel_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="47" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1ade142d8ce490ab47a54f6249aa6cf3ad" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::radar::os_cfar_2d_vc_impl::d_mult_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_mult_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="47" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1af9cc20c924e37f8214fb05e886e755f6" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::os_cfar_2d_vc_impl::d_x</definition>
+        <argsstring></argsstring>
+        <name>d_x</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="48" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1ac4b8863e297f823a8cfcf814959fd29d" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::os_cfar_2d_vc_impl::d_y</definition>
+        <argsstring></argsstring>
+        <name>d_y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="48" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a6e3b73cc479f35e824c7ea522722208e" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::os_cfar_2d_vc_impl::d_power</definition>
+        <argsstring></argsstring>
+        <name>d_power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="48" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a1cae51b083db3a7b6b77286d0ff987c5" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::os_cfar_2d_vc_impl::d_port_id</definition>
+        <argsstring></argsstring>
+        <name>d_port_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="50" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1af8918b4631b0dcf6f1eff404c250f232" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>std::vector&lt; tag_t &gt; gr::radar::os_cfar_2d_vc_impl::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="51" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1ae79502c7c177ef395011d5eb3b62a2c4" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::os_cfar_2d_vc_impl::d_ptimestamp</definition>
+        <argsstring></argsstring>
+        <name>d_ptimestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="52" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a82f4deb2d1eae9395cc19a613459b03a" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::os_cfar_2d_vc_impl::d_px</definition>
+        <argsstring></argsstring>
+        <name>d_px</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="52" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a5a10179fc2d471873e45b2e73c6fc95b" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::os_cfar_2d_vc_impl::d_py</definition>
+        <argsstring></argsstring>
+        <name>d_py</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="52" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1aa7d3b2a476cd907d59dbb7028dfb2207" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::os_cfar_2d_vc_impl::d_ppower</definition>
+        <argsstring></argsstring>
+        <name>d_ppower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="52" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a4b1647b12737588a2f5a9c444a4bb40a" prot="public" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::radar::os_cfar_2d_vc_impl::d_value</definition>
+        <argsstring></argsstring>
+        <name>d_value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="52" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a715aa2180ec8f6c9da923fb9b1d685a4" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::os_cfar_2d_vc_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a79d4457d9c0e345a06895144f54497fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::os_cfar_2d_vc_impl::os_cfar_2d_vc_impl</definition>
+        <argsstring>(int vlen, std::vector&lt; int &gt; samp_compare, std::vector&lt; int &gt; samp_protect, float rel_threshold, float mult_threshold, const std::string &amp;len_key)</argsstring>
+        <name>os_cfar_2d_vc_impl</name>
+        <param>
+          <type>int</type>
+          <declname>vlen</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>samp_compare</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>samp_protect</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rel_threshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>mult_threshold</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a33ff7839fb5251381066e12e58bad063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::os_cfar_2d_vc_impl::~os_cfar_2d_vc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~os_cfar_2d_vc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a236d34917c911a7d8a5e0c5fab9dc943" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::os_cfar_2d_vc_impl::set_rel_threshold</definition>
+        <argsstring>(float inp)</argsstring>
+        <name>set_rel_threshold</name>
+        <reimplements refid="classgr_1_1radar_1_1os__cfar__2d__vc_1a6b5f01cebda7b41e32d438b574572a5c">set_rel_threshold</reimplements>
+        <param>
+          <type>float</type>
+          <declname>inp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a5e7d37f3d3f83f8c22ac19e2353940f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::os_cfar_2d_vc_impl::set_mult_threshold</definition>
+        <argsstring>(float inp)</argsstring>
+        <name>set_mult_threshold</name>
+        <reimplements refid="classgr_1_1radar_1_1os__cfar__2d__vc_1a3cb44d8c4d817e788b13ddd216a1a5a4">set_mult_threshold</reimplements>
+        <param>
+          <type>float</type>
+          <declname>inp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a12a2d2fd2a3ba86558b5e3d0aea1a9ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::os_cfar_2d_vc_impl::set_samp_compare</definition>
+        <argsstring>(std::vector&lt; int &gt; inp)</argsstring>
+        <name>set_samp_compare</name>
+        <reimplements refid="classgr_1_1radar_1_1os__cfar__2d__vc_1a0ade86b62ae5f7067231d612938f4dd3">set_samp_compare</reimplements>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>inp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1afeb4e407362b2eeb2908d6dc052c5f27" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void gr::radar::os_cfar_2d_vc_impl::set_samp_protect</definition>
+        <argsstring>(std::vector&lt; int &gt; inp)</argsstring>
+        <name>set_samp_protect</name>
+        <reimplements refid="classgr_1_1radar_1_1os__cfar__2d__vc_1ad33d6067a6e010744ccbf43748203e99">set_samp_protect</reimplements>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>inp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a0fb78dc0bcf0d9f6b1531d27fa210950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::os_cfar_2d_vc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="55" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="161">
+        <label>gr::radar::os_cfar_2d_vc_impl</label>
+        <link refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="163">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="162">
+        <label>gr::radar::os_cfar_2d_vc</label>
+        <link refid="classgr_1_1radar_1_1os__cfar__2d__vc"/>
+        <childnode refid="163" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="164">
+        <label>gr::radar::os_cfar_2d_vc_impl</label>
+        <link refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl"/>
+        <childnode refid="165" relation="public-inheritance">
+        </childnode>
+        <childnode refid="167" relation="usage">
+          <edgelabel>d_x</edgelabel>
+          <edgelabel>d_y</edgelabel>
+          <edgelabel>d_power</edgelabel>
+        </childnode>
+        <childnode refid="168" relation="usage">
+          <edgelabel>d_samp_compare</edgelabel>
+          <edgelabel>d_samp_protect</edgelabel>
+        </childnode>
+        <childnode refid="169" relation="usage">
+          <edgelabel>d_tags</edgelabel>
+        </childnode>
+      </node>
+      <node id="167">
+        <label>std::vector&lt; float &gt;</label>
+      </node>
+      <node id="166">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="169">
+        <label>std::vector&lt; tag_t &gt;</label>
+      </node>
+      <node id="165">
+        <label>gr::radar::os_cfar_2d_vc</label>
+        <link refid="classgr_1_1radar_1_1os__cfar__2d__vc"/>
+        <childnode refid="166" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="168">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" line="30" column="1" bodyfile="/home/parallels/gr-radar/lib/os_cfar_2d_vc_impl.h" bodystart="29" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a715aa2180ec8f6c9da923fb9b1d685a4" prot="protected" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1ade142d8ce490ab47a54f6249aa6cf3ad" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_mult_threshold</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a1cae51b083db3a7b6b77286d0ff987c5" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_port_id</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a6e3b73cc479f35e824c7ea522722208e" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_power</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1aa7d3b2a476cd907d59dbb7028dfb2207" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_ppower</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1ae79502c7c177ef395011d5eb3b62a2c4" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_ptimestamp</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a82f4deb2d1eae9395cc19a613459b03a" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_px</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a5a10179fc2d471873e45b2e73c6fc95b" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_py</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a14e4bd045f1e3f36ddb703316e2e57e2" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_rel_threshold</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a9fd950a6f6bc4317dfe493ddbcd4e0d9" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_samp_compare</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1ac9682802e204da71044f5f477f21ac80" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_samp_protect</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1af8918b4631b0dcf6f1eff404c250f232" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_tags</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a4b1647b12737588a2f5a9c444a4bb40a" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_value</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a67e2a7f1af45af3ddfbf736e13a15adf" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_vlen</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1af9cc20c924e37f8214fb05e886e755f6" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_x</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1ac4b8863e297f823a8cfcf814959fd29d" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>d_y</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc_1a171081074623d07f5ffb69f0e6a549c6" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a79d4457d9c0e345a06895144f54497fd" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>os_cfar_2d_vc_impl</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a5e7d37f3d3f83f8c22ac19e2353940f3" prot="public" virt="virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>set_mult_threshold</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a236d34917c911a7d8a5e0c5fab9dc943" prot="public" virt="virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>set_rel_threshold</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a12a2d2fd2a3ba86558b5e3d0aea1a9ee" prot="public" virt="virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>set_samp_compare</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1afeb4e407362b2eeb2908d6dc052c5f27" prot="public" virt="virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>set_samp_protect</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc_1a40f845fbdebf70ea2e266315209aebfd" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a0fb78dc0bcf0d9f6b1531d27fa210950" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1radar_1_1os__cfar__2d__vc__impl_1a33ff7839fb5251381066e12e58bad063" prot="public" virt="non-virtual"><scope>gr::radar::os_cfar_2d_vc_impl</scope><name>~os_cfar_2d_vc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

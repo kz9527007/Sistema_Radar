@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1radar_1_1split__cc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::split_cc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1split__cc" prot="public" virt="non-virtual">gr::radar::split_cc</basecompoundref>
+    <includes refid="split__cc__impl_8h" local="no">split_cc_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1split__cc__impl_1af75c502ac15876b0bb3f5517d6be26b2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::split_cc_impl::d_packet_num</definition>
+        <argsstring></argsstring>
+        <name>d_packet_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_cc_impl.h" line="41" column="1" bodyfile="/home/parallels/gr-radar/lib/split_cc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1split__cc__impl_1aea86d8f0e94e834da73aafbd9f7ba9f3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::split_cc_impl::d_offset</definition>
+        <argsstring></argsstring>
+        <name>d_offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_cc_impl.h" line="41" column="1" bodyfile="/home/parallels/gr-radar/lib/split_cc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1split__cc__impl_1a85c93883a395caf53471af6cce7d45ae" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::radar::split_cc_impl::d_packet_parts</definition>
+        <argsstring></argsstring>
+        <name>d_packet_parts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_cc_impl.h" line="42" column="1" bodyfile="/home/parallels/gr-radar/lib/split_cc_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1split__cc__impl_1ad1dba68394f30f3507b2f9d58aff0653" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>std::vector&lt; tag_t &gt; gr::radar::split_cc_impl::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_cc_impl.h" line="43" column="1" bodyfile="/home/parallels/gr-radar/lib/split_cc_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1split__cc__impl_1ab576345f5063924597b5adc769c31ba5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::split_cc_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_cc_impl.h" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1split__cc__impl_1a4d5dd28cbcea93feba0effdd9e4eed26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::split_cc_impl::split_cc_impl</definition>
+        <argsstring>(int packet_num, const std::vector&lt; int &gt; packet_parts, const std::string &amp;len_key)</argsstring>
+        <name>split_cc_impl</name>
+        <param>
+          <type>int</type>
+          <declname>packet_num</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; int &gt;</type>
+          <declname>packet_parts</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_cc_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1split__cc__impl_1a34d7f74c08aa30877fbf28ebabe542e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::split_cc_impl::~split_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~split_cc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_cc_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1split__cc__impl_1aed85b95eea44e916a47d148c224bab74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::split_cc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_cc_impl.h" line="46" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="310">
+        <label>gr::radar::split_cc</label>
+        <link refid="classgr_1_1radar_1_1split__cc"/>
+        <childnode refid="311" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="311">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="309">
+        <label>gr::radar::split_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1split__cc__impl"/>
+        <childnode refid="310" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="313">
+        <label>gr::radar::split_cc</label>
+        <link refid="classgr_1_1radar_1_1split__cc"/>
+        <childnode refid="314" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="314">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="316">
+        <label>std::vector&lt; tag_t &gt;</label>
+      </node>
+      <node id="312">
+        <label>gr::radar::split_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1split__cc__impl"/>
+        <childnode refid="313" relation="public-inheritance">
+        </childnode>
+        <childnode refid="315" relation="usage">
+          <edgelabel>d_packet_parts</edgelabel>
+        </childnode>
+        <childnode refid="316" relation="usage">
+          <edgelabel>d_tags</edgelabel>
+        </childnode>
+      </node>
+      <node id="315">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/parallels/gr-radar/lib/split_cc_impl.h" line="30" column="1" bodyfile="/home/parallels/gr-radar/lib/split_cc_impl.h" bodystart="29" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1split__cc__impl_1ab576345f5063924597b5adc769c31ba5" prot="protected" virt="non-virtual"><scope>gr::radar::split_cc_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1radar_1_1split__cc__impl_1aea86d8f0e94e834da73aafbd9f7ba9f3" prot="public" virt="non-virtual"><scope>gr::radar::split_cc_impl</scope><name>d_offset</name></member>
+      <member refid="classgr_1_1radar_1_1split__cc__impl_1af75c502ac15876b0bb3f5517d6be26b2" prot="public" virt="non-virtual"><scope>gr::radar::split_cc_impl</scope><name>d_packet_num</name></member>
+      <member refid="classgr_1_1radar_1_1split__cc__impl_1a85c93883a395caf53471af6cce7d45ae" prot="public" virt="non-virtual"><scope>gr::radar::split_cc_impl</scope><name>d_packet_parts</name></member>
+      <member refid="classgr_1_1radar_1_1split__cc__impl_1ad1dba68394f30f3507b2f9d58aff0653" prot="public" virt="non-virtual"><scope>gr::radar::split_cc_impl</scope><name>d_tags</name></member>
+      <member refid="classgr_1_1radar_1_1split__cc_1a2dbdccada2397c19ae4dab2c3d8fa98b" prot="public" virt="non-virtual"><scope>gr::radar::split_cc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1split__cc__impl_1a4d5dd28cbcea93feba0effdd9e4eed26" prot="public" virt="non-virtual"><scope>gr::radar::split_cc_impl</scope><name>split_cc_impl</name></member>
+      <member refid="classgr_1_1radar_1_1split__cc_1a3fc8e876750f0f4069af1b8d154f21b7" prot="public" virt="non-virtual"><scope>gr::radar::split_cc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1split__cc__impl_1aed85b95eea44e916a47d148c224bab74" prot="public" virt="non-virtual"><scope>gr::radar::split_cc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1radar_1_1split__cc__impl_1a34d7f74c08aa30877fbf28ebabe542e4" prot="public" virt="non-virtual"><scope>gr::radar::split_cc_impl</scope><name>~split_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

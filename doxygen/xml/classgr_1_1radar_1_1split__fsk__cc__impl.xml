@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1radar_1_1split__fsk__cc__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::split_fsk_cc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1split__fsk__cc" prot="public" virt="non-virtual">gr::radar::split_fsk_cc</basecompoundref>
+    <includes refid="split__fsk__cc__impl_8h" local="no">split_fsk_cc_impl.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1split__fsk__cc__impl_1a54c8e945f16ffc485f0bf32802ea8edc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::split_fsk_cc_impl::d_samp_per_freq</definition>
+        <argsstring></argsstring>
+        <name>d_samp_per_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" line="41" column="1" bodyfile="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1split__fsk__cc__impl_1ad9613676be6989618ca3de8e11417822" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::split_fsk_cc_impl::d_samp_discard</definition>
+        <argsstring></argsstring>
+        <name>d_samp_discard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" line="41" column="1" bodyfile="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1split__fsk__cc__impl_1a46530ba0c8a0889c7ed8af597cdc3c18" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::split_fsk_cc_impl::d_nblocks</definition>
+        <argsstring></argsstring>
+        <name>d_nblocks</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" line="41" column="1" bodyfile="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1split__fsk__cc__impl_1aa34b462a717d11cb34bccadb7fc93cf2" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>std::vector&lt; tag_t &gt; gr::radar::split_fsk_cc_impl::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" line="42" column="1" bodyfile="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1split__fsk__cc__impl_1a9e2003fb0924512797d33ab2ff071ed7" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::split_fsk_cc_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" line="35" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1split__fsk__cc__impl_1ae6144373d653364d24f82efaa05782ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::split_fsk_cc_impl::split_fsk_cc_impl</definition>
+        <argsstring>(int samp_per_freq, int samp_discard, const std::string &amp;len_key)</argsstring>
+        <name>split_fsk_cc_impl</name>
+        <param>
+          <type>int</type>
+          <declname>samp_per_freq</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>samp_discard</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" line="38" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1split__fsk__cc__impl_1af342ef66f9c712884b40e67c395d6b6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::split_fsk_cc_impl::~split_fsk_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~split_fsk_cc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1split__fsk__cc__impl_1a63f593516c74a3869ae0f5e6302ec899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::split_fsk_cc_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" line="45" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="323">
+        <label>gr::radar::split_fsk_cc</label>
+        <link refid="classgr_1_1radar_1_1split__fsk__cc"/>
+        <childnode refid="324" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="322">
+        <label>gr::radar::split_fsk_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1split__fsk__cc__impl"/>
+        <childnode refid="323" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="324">
+        <label>tagged_stream_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="326">
+        <label>gr::radar::split_fsk_cc</label>
+        <link refid="classgr_1_1radar_1_1split__fsk__cc"/>
+        <childnode refid="327" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="325">
+        <label>gr::radar::split_fsk_cc_impl</label>
+        <link refid="classgr_1_1radar_1_1split__fsk__cc__impl"/>
+        <childnode refid="326" relation="public-inheritance">
+        </childnode>
+        <childnode refid="328" relation="usage">
+          <edgelabel>d_tags</edgelabel>
+        </childnode>
+      </node>
+      <node id="327">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="328">
+        <label>std::vector&lt; tag_t &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" line="30" column="1" bodyfile="/home/parallels/gr-radar/lib/split_fsk_cc_impl.h" bodystart="29" bodyend="49"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc__impl_1a9e2003fb0924512797d33ab2ff071ed7" prot="protected" virt="non-virtual"><scope>gr::radar::split_fsk_cc_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc__impl_1a46530ba0c8a0889c7ed8af597cdc3c18" prot="public" virt="non-virtual"><scope>gr::radar::split_fsk_cc_impl</scope><name>d_nblocks</name></member>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc__impl_1ad9613676be6989618ca3de8e11417822" prot="public" virt="non-virtual"><scope>gr::radar::split_fsk_cc_impl</scope><name>d_samp_discard</name></member>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc__impl_1a54c8e945f16ffc485f0bf32802ea8edc" prot="public" virt="non-virtual"><scope>gr::radar::split_fsk_cc_impl</scope><name>d_samp_per_freq</name></member>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc__impl_1aa34b462a717d11cb34bccadb7fc93cf2" prot="public" virt="non-virtual"><scope>gr::radar::split_fsk_cc_impl</scope><name>d_tags</name></member>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc_1a8b2d29255faa6cab9f42ac45b2f3d42e" prot="public" virt="non-virtual"><scope>gr::radar::split_fsk_cc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc__impl_1ae6144373d653364d24f82efaa05782ad" prot="public" virt="non-virtual"><scope>gr::radar::split_fsk_cc_impl</scope><name>split_fsk_cc_impl</name></member>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc_1aababcddab90206a176ab4947b5105de2" prot="public" virt="non-virtual"><scope>gr::radar::split_fsk_cc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc__impl_1a63f593516c74a3869ae0f5e6302ec899" prot="public" virt="non-virtual"><scope>gr::radar::split_fsk_cc_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1radar_1_1split__fsk__cc__impl_1af342ef66f9c712884b40e67c395d6b6f" prot="public" virt="non-virtual"><scope>gr::radar::split_fsk_cc_impl</scope><name>~split_fsk_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="trigger__command__impl_8h" kind="file" language="C++">
+    <compoundname>trigger_command_impl.h</compoundname>
+    <includes refid="trigger__command_8h" local="no">radar/trigger_command.h</includes>
+    <includes local="yes">boost/date_time/posix_time/posix_time.hpp</includes>
+    <incdepgraph>
+      <node id="458">
+        <label>radar/trigger_command.h</label>
+        <link refid="trigger__command_8h"/>
+        <childnode refid="459" relation="include">
+        </childnode>
+        <childnode refid="461" relation="include">
+        </childnode>
+      </node>
+      <node id="459">
+        <label>radar/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="460" relation="include">
+        </childnode>
+      </node>
+      <node id="457">
+        <label>trigger_command_impl.h</label>
+        <link refid="trigger_command_impl.h"/>
+        <childnode refid="458" relation="include">
+        </childnode>
+        <childnode refid="462" relation="include">
+        </childnode>
+      </node>
+      <node id="460">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="462">
+        <label>boost/date_time/posix_time/posix_time.hpp</label>
+      </node>
+      <node id="461">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1radar_1_1trigger__command__impl" prot="public">gr::radar::trigger_command_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1radar">gr::radar</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/parallels/gr-radar/lib/trigger_command_impl.h"/>
+  </compounddef>
+</doxygen>

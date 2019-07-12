@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::signal_generator_fmcw_c_impl</compoundname>
+    <basecompoundref refid="classgr_1_1radar_1_1signal__generator__fmcw__c" prot="public" virt="non-virtual">gr::radar::signal_generator_fmcw_c</basecompoundref>
+    <includes refid="signal__generator__fmcw__c__impl_8h" local="no">signal_generator_fmcw_c_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a35fce271860a8e6a214f94f909bd98c4" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::radar::signal_generator_fmcw_c_impl::d_samp_rate</definition>
+        <argsstring></argsstring>
+        <name>d_samp_rate</name>
+        <briefdescription>
+<para>Sample rate of signal (sps) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="50" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a2305313c44ffb33b3e0989df66d96a89" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::radar::signal_generator_fmcw_c_impl::d_samp_up</definition>
+        <argsstring></argsstring>
+        <name>d_samp_up</name>
+        <briefdescription>
+<para>Number of samples on the up-sweep. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="51" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a2694890d60516415c22551e83b89d7ec" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::radar::signal_generator_fmcw_c_impl::d_samp_down</definition>
+        <argsstring></argsstring>
+        <name>d_samp_down</name>
+        <briefdescription>
+<para>Number of samples on the down-sweep. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="52" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1ac3f9c0aa4cc90b91308e21a4d7c085de" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::radar::signal_generator_fmcw_c_impl::d_samp_cw</definition>
+        <argsstring></argsstring>
+        <name>d_samp_cw</name>
+        <briefdescription>
+<para>Number of samples on the CW part. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="53" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a1cc30dd2c5af047f0baa3363b2bf4aed" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int gr::radar::signal_generator_fmcw_c_impl::d_packet_len</definition>
+        <argsstring></argsstring>
+        <name>d_packet_len</name>
+        <briefdescription>
+<para>Total length of packet (up, down, CW) </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="54" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a082ec33a58d9438fe79720f602f1f965" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::radar::signal_generator_fmcw_c_impl::d_freq_cw</definition>
+        <argsstring></argsstring>
+        <name>d_freq_cw</name>
+        <briefdescription>
+<para>Frequency of the CW part. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="55" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a1c2089fac09197cc28d524040b1056d5" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::radar::signal_generator_fmcw_c_impl::d_freq_sweep</definition>
+        <argsstring></argsstring>
+        <name>d_freq_sweep</name>
+        <briefdescription>
+<para>Sweep frequency. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="56" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1aaf244b08bd6c59f1adaa68df0f9dd7d1" prot="private" static="no" mutable="no">
+        <type>const float</type>
+        <definition>const float gr::radar::signal_generator_fmcw_c_impl::d_amplitude</definition>
+        <argsstring></argsstring>
+        <name>d_amplitude</name>
+        <briefdescription>
+<para>Amplitude. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="57" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1ac640ef0797085853e6e0d56677d1fc6a" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::radar::signal_generator_fmcw_c_impl::d_key_len</definition>
+        <argsstring></argsstring>
+        <name>d_key_len</name>
+        <briefdescription>
+<para>Tag identifier for TSB length tags. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="59" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1ae1f67b925587a0c263ed8780919fd607" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::radar::signal_generator_fmcw_c_impl::d_value_len</definition>
+        <argsstring></argsstring>
+        <name>d_value_len</name>
+        <briefdescription>
+<para>Precalculated value of TSB tag. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="60" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a39a0ec863a8cd94fb55d2fe24562a2b8" prot="private" static="no" mutable="no">
+        <type>const pmt::pmt_t</type>
+        <definition>const pmt::pmt_t gr::radar::signal_generator_fmcw_c_impl::d_srcid</definition>
+        <argsstring></argsstring>
+        <name>d_srcid</name>
+        <briefdescription>
+<para>srcid for TSB tag </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="61" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a8c6778534795884f5301777184f56bf2" prot="private" static="no" mutable="no">
+        <type>std::complex&lt; float &gt;</type>
+        <definition>std::complex&lt;float&gt; gr::radar::signal_generator_fmcw_c_impl::d_phase</definition>
+        <argsstring></argsstring>
+        <name>d_phase</name>
+        <briefdescription>
+<para>Store phase state. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="63" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1af041a8df917ee619d5164336f4759a68" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; gr::radar::signal_generator_fmcw_c_impl::d_waveform</definition>
+        <argsstring></argsstring>
+        <name>d_waveform</name>
+        <briefdescription>
+<para>Phase increment of the waveform. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="64" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1ab300351a1500533e285ef51f52b4dd16" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::radar::signal_generator_fmcw_c_impl::d_wv_counter</definition>
+        <argsstring></argsstring>
+        <name>d_wv_counter</name>
+        <briefdescription>
+<para>Stores the current position in the waveform. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="65" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a10cd89ea0e10052c1c78d9b521312f0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::signal_generator_fmcw_c_impl::signal_generator_fmcw_c_impl</definition>
+        <argsstring>(const int samp_rate, const int samp_up, const int samp_down, const int samp_cw, const float freq_cw, const float freq_sweep, const float amplitude, const std::string &amp;len_key)</argsstring>
+        <name>signal_generator_fmcw_c_impl</name>
+        <param>
+          <type>const int</type>
+          <declname>samp_rate</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>samp_up</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>samp_down</declname>
+        </param>
+        <param>
+          <type>const int</type>
+          <declname>samp_cw</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>freq_cw</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>freq_sweep</declname>
+        </param>
+        <param>
+          <type>const float</type>
+          <declname>amplitude</declname>
+        </param>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>len_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="32" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a75a2b08adb7248e8c2478022e0fa1394" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::radar::signal_generator_fmcw_c_impl::~signal_generator_fmcw_c_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~signal_generator_fmcw_c_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a57e93574bdc5c3ff738ba9e92a78bdf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::radar::signal_generator_fmcw_c_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="44" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="272">
+        <label>gr::radar::signal_generator_fmcw_c</label>
+        <link refid="classgr_1_1radar_1_1signal__generator__fmcw__c"/>
+        <childnode refid="273" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="273">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="271">
+        <label>gr::radar::signal_generator_fmcw_c_impl</label>
+        <link refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl"/>
+        <childnode refid="272" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="275">
+        <label>gr::radar::signal_generator_fmcw_c</label>
+        <link refid="classgr_1_1radar_1_1signal__generator__fmcw__c"/>
+        <childnode refid="276" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="276">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="274">
+        <label>gr::radar::signal_generator_fmcw_c_impl</label>
+        <link refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl"/>
+        <childnode refid="275" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" line="30" column="1" bodyfile="/home/parallels/gr-radar/lib/signal_generator_fmcw_c_impl.h" bodystart="29" bodyend="66"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1aaf244b08bd6c59f1adaa68df0f9dd7d1" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_amplitude</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a082ec33a58d9438fe79720f602f1f965" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_freq_cw</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a1c2089fac09197cc28d524040b1056d5" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_freq_sweep</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1ac640ef0797085853e6e0d56677d1fc6a" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_key_len</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a1cc30dd2c5af047f0baa3363b2bf4aed" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_packet_len</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a8c6778534795884f5301777184f56bf2" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_phase</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1ac3f9c0aa4cc90b91308e21a4d7c085de" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_samp_cw</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a2694890d60516415c22551e83b89d7ec" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_samp_down</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a35fce271860a8e6a214f94f909bd98c4" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_samp_rate</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a2305313c44ffb33b3e0989df66d96a89" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_samp_up</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a39a0ec863a8cd94fb55d2fe24562a2b8" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_srcid</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1ae1f67b925587a0c263ed8780919fd607" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_value_len</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1af041a8df917ee619d5164336f4759a68" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_waveform</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1ab300351a1500533e285ef51f52b4dd16" prot="private" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>d_wv_counter</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c_1afd4e34152c7a6a7e609272c5145199d9" prot="public" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a10cd89ea0e10052c1c78d9b521312f0b" prot="public" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>signal_generator_fmcw_c_impl</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c_1adbdf3f5fc8fa7994d997cf105b5198f6" prot="public" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a57e93574bdc5c3ff738ba9e92a78bdf6" prot="public" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1radar_1_1signal__generator__fmcw__c__impl_1a75a2b08adb7248e8c2478022e0fa1394" prot="public" virt="non-virtual"><scope>gr::radar::signal_generator_fmcw_c_impl</scope><name>~signal_generator_fmcw_c_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

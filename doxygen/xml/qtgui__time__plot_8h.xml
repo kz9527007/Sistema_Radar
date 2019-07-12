@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="qtgui__time__plot_8h" kind="file" language="C++">
+    <compoundname>qtgui_time_plot.h</compoundname>
+    <includes refid="api_8h" local="no">radar/api.h</includes>
+    <includes local="no">gnuradio/block.h</includes>
+    <includedby refid="qtgui__time__plot__impl_8h" local="no">qtgui_time_plot_impl.h</includedby>
+    <incdepgraph>
+      <node id="291">
+        <label>radar/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="292" relation="include">
+        </childnode>
+      </node>
+      <node id="290">
+        <label>qtgui_time_plot.h</label>
+        <link refid="qtgui_time_plot.h"/>
+        <childnode refid="291" relation="include">
+        </childnode>
+        <childnode refid="293" relation="include">
+        </childnode>
+      </node>
+      <node id="292">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="293">
+        <label>gnuradio/block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="294">
+        <label>qtgui_time_plot.h</label>
+        <link refid="qtgui_time_plot.h"/>
+        <childnode refid="295" relation="include">
+        </childnode>
+      </node>
+      <node id="295">
+        <label>qtgui_time_plot_impl.h</label>
+        <link refid="qtgui__time__plot__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1radar_1_1qtgui__time__plot" prot="public">gr::radar::qtgui_time_plot</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1radar">gr::radar</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/parallels/gr-radar/include/radar/qtgui_time_plot.h"/>
+  </compounddef>
+</doxygen>

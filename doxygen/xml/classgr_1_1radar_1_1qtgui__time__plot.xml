@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1radar_1_1qtgui__time__plot" kind="class" language="C++" prot="public">
+    <compoundname>gr::radar::qtgui_time_plot</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1radar_1_1qtgui__time__plot__impl" prot="public" virt="non-virtual">gr::radar::qtgui_time_plot_impl</derivedcompoundref>
+    <includes refid="qtgui__time__plot_8h" local="no">qtgui_time_plot.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1radar_1_1qtgui__time__plot_1afb0d07e2b2f0f9a33c29cf3647da870a" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1radar_1_1qtgui__time__plot" kindref="compound">qtgui_time_plot</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;qtgui_time_plot&gt; gr::radar::qtgui_time_plot::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/include/radar/qtgui_time_plot.h" line="46" column="1" bodyfile="/home/parallels/gr-radar/include/radar/qtgui_time_plot.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1radar_1_1qtgui__time__plot_1a9557415cc566c76afa7c676f0a620aab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1radar_1_1qtgui__time__plot_1afb0d07e2b2f0f9a33c29cf3647da870a" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::radar::qtgui_time_plot::make</definition>
+        <argsstring>(int interval, std::string label_y, std::vector&lt; float &gt; axis_y, float range_time, std::string label=&quot;&quot;)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>interval</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>label_y</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>axis_y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>range_time</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>label</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1radar_1_1qtgui__time__plot" kindref="compound">radar::qtgui_time_plot</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1radar_1_1qtgui__time__plot" kindref="compound">radar::qtgui_time_plot</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1radar_1_1qtgui__time__plot_1a9557415cc566c76afa7c676f0a620aab" kindref="member">radar::qtgui_time_plot::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/parallels/gr-radar/include/radar/qtgui_time_plot.h" line="56" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This block displays a plot of a value with a given interval in milliseconds. label_y represents the identifier (symbol) of the data. The y axis is scaled with axis_y. range_time gives the shown range of the x axis in seconds. label is an additional label for the title. </para>    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>interval</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Update interval in milliseconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>label_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lable for y axis and identifier (symbol) for data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>axis_y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Display range y axis </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>range_time</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Display range for x axis in seconds </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>label</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Additional label for the title </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="235">
+        <label>gr::radar::qtgui_time_plot_impl</label>
+        <link refid="classgr_1_1radar_1_1qtgui__time__plot__impl"/>
+        <childnode refid="233" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>block</label>
+      </node>
+      <node id="233">
+        <label>gr::radar::qtgui_time_plot</label>
+        <link refid="classgr_1_1radar_1_1qtgui__time__plot"/>
+        <childnode refid="234" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="237">
+        <label>block</label>
+      </node>
+      <node id="236">
+        <label>gr::radar::qtgui_time_plot</label>
+        <link refid="classgr_1_1radar_1_1qtgui__time__plot"/>
+        <childnode refid="237" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/parallels/gr-radar/include/radar/qtgui_time_plot.h" line="44" column="1" bodyfile="/home/parallels/gr-radar/include/radar/qtgui_time_plot.h" bodystart="43" bodyend="57"/>
+    <listofallmembers>
+      <member refid="classgr_1_1radar_1_1qtgui__time__plot_1a9557415cc566c76afa7c676f0a620aab" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_time_plot</scope><name>make</name></member>
+      <member refid="classgr_1_1radar_1_1qtgui__time__plot_1afb0d07e2b2f0f9a33c29cf3647da870a" prot="public" virt="non-virtual"><scope>gr::radar::qtgui_time_plot</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="spectrogram__plot_8h" kind="file" language="C++">
+    <compoundname>spectrogram_plot.h</compoundname>
+    <includes local="no">complex</includes>
+    <includes local="no">QApplication</includes>
+    <includes local="no">QTimer</includes>
+    <includes local="no">QWidget</includes>
+    <includes local="no">qwt_plot.h</includes>
+    <includes local="no">qwt_color_map.h</includes>
+    <includes local="no">qwt_plot_spectrogram.h</includes>
+    <includes local="no">qwt_matrix_raster_data.h</includes>
+    <includes local="no">qwt_scale_widget.h</includes>
+    <includedby refid="qtgui__spectrogram__plot__impl_8h" local="yes">qtgui_spectrogram_plot_impl.h</includedby>
+    <incdepgraph>
+      <node id="373">
+        <label>qwt_plot.h</label>
+      </node>
+      <node id="374">
+        <label>qwt_color_map.h</label>
+      </node>
+      <node id="370">
+        <label>QApplication</label>
+      </node>
+      <node id="371">
+        <label>QTimer</label>
+      </node>
+      <node id="372">
+        <label>QWidget</label>
+      </node>
+      <node id="375">
+        <label>qwt_plot_spectrogram.h</label>
+      </node>
+      <node id="377">
+        <label>qwt_scale_widget.h</label>
+      </node>
+      <node id="376">
+        <label>qwt_matrix_raster_data.h</label>
+      </node>
+      <node id="369">
+        <label>complex</label>
+      </node>
+      <node id="368">
+        <label>spectrogram_plot.h</label>
+        <link refid="spectrogram_plot.h"/>
+        <childnode refid="369" relation="include">
+        </childnode>
+        <childnode refid="370" relation="include">
+        </childnode>
+        <childnode refid="371" relation="include">
+        </childnode>
+        <childnode refid="372" relation="include">
+        </childnode>
+        <childnode refid="373" relation="include">
+        </childnode>
+        <childnode refid="374" relation="include">
+        </childnode>
+        <childnode refid="375" relation="include">
+        </childnode>
+        <childnode refid="376" relation="include">
+        </childnode>
+        <childnode refid="377" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="379">
+        <label>qtgui_spectrogram_plot_impl.h</label>
+        <link refid="qtgui__spectrogram__plot__impl_8h"/>
+      </node>
+      <node id="378">
+        <label>spectrogram_plot.h</label>
+        <link refid="spectrogram_plot.h"/>
+        <childnode refid="379" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1radar_1_1spectrogram__plot" prot="public">gr::radar::spectrogram_plot</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1radar">gr::radar</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/parallels/gr-radar/lib/spectrogram_plot.h"/>
+  </compounddef>
+</doxygen>
